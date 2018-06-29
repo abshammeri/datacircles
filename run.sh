@@ -1,1 +1,1 @@
- docker run --name=nginx -p 80:80 -v `pwd`:/datacircles.sa -v `pwd`/datacircles.sa.conf:/etc/nginx/conf.d/datacircles.sa.conf -d nginx
+ docker run --name=nginx -p 80:80 -v `pwd`:/datacircles.sa -v `pwd`/nginx.conf:/etc/nginx/nginx.conf -d nginx
